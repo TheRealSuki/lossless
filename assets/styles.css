@@ -5,14 +5,14 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background: #f1f1f1;
+  background: #A13C69;
 }
 
 /* Header/Blog Title */
 .header {
   padding: 30px;
   text-align: center;
-  background: white;
+  background: #959F81;
 }
 
 .header h1 {
@@ -22,7 +22,7 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #28292A;
 }
 
 /* Style the topnav links */
@@ -61,14 +61,14 @@ body {
 
 /* Fake image */
 .fakeimg {
-  background-color: #aaa;
+  background-color: ;
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: white;
+  background-color: ;
   padding: 20px;
   margin-top: 20px;
 }
@@ -85,11 +85,16 @@ body {
   max-width: 200px;
   height: auto;
 }
+.responsive_img_2 {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
 /* Footer */
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: #28292A;
   margin-top: 20px;
 }
 
@@ -99,6 +104,11 @@ body {
     width: 100%;
     padding: 0;
   }
+  .responsive_img_2 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -106,5 +116,10 @@ body {
   .topnav a {
     float: none;
     width: 100%;
+  }
+  .responsive_img_2 {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
   }
 }
