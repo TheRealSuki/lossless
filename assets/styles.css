@@ -61,14 +61,12 @@ body {
 
 /* Fake image */
 .fakeimg {
-  background-color: ;
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-  background-color: ;
   padding: 20px;
   margin-top: 20px;
 }
