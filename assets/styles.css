@@ -3,9 +3,10 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: 'Bebas Neue';
   padding: 10px;
   background: #A13C69;
+  color: white;
 }
 
 /* Header/Blog Title */
@@ -23,6 +24,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #28292A;
+  font-size: 30px;
 }
 
 /* Style the topnav links */
@@ -70,6 +72,11 @@ body {
   padding: 20px;
   margin-top: 20px;
 }
+.card_2 {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #28292A;
+}
 
 /* Clear floats after the columns */
 .row:after {
@@ -85,7 +92,7 @@ body {
 }
 .responsive_img_2 {
   width: 100%;
-  max-width: 800px;
+  max-width: 300px;
   height: auto;
 }
 /* Footer */
@@ -94,7 +101,16 @@ body {
   text-align: center;
   background: #28292A;
   margin-top: 20px;
+  position: relative;
+  margin-top: 0px;
 }
+.table {
+  text-align: left;
+  width: 50%;
+  overflow-x: auto;
+  font-size: 25px;
+}
+
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
@@ -106,6 +122,11 @@ body {
     width: 100%;
     max-width: 400px;
     height: auto;
+  }
+  .table {
+    text-align: left;
+    width: 100%;
+    overflow-x: auto;
   }
 }
 
@@ -119,5 +140,10 @@ body {
     width: 100%;
     max-width: 200px;
     height: auto;
+  }
+  .table {
+    text-align: left;
+    width: 100%;
+    overflow-x: auto;
   }
 }
